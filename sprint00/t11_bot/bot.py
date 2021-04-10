@@ -22,4 +22,4 @@ if __name__ == '__main__':
             except:
                 print("usage: first and second beatbox numbers must be integer or float, but string")
         else:
-            print('sage: command find | concat | beatbox')
+            print('usage: command find | concat | beatbox')
