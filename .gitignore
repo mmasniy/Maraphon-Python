@@ -128,3 +128,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea/*
+
+.DS_Store
+*/DS_Store
+
+__pycache__
+*/__pycache__
+*/s0*
+
+sprint01/t01_arguments/s01t01_arguments_main.py
