@@ -1,5 +1,5 @@
 def patoi(arg):
     try:
         return int(arg)
-    except:
+    except ValueError:
         return False
