@@ -9,7 +9,7 @@ def print_str_analytics(string_for_analytics):
             decimal += 1
         if ch.islower():
             lower += 1
-        if ch.upper():
+        if ch.isupper():
             upper += 1
         if ch.isspace():
             white += 1

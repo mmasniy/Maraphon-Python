@@ -7,4 +7,4 @@ def add_to_bookshelf(book_to_add, bookshelf):
         i += 1
     return False
 
-# bookshelf[bookshelf.index('---')] = book_to_add
+# bookshelf[bookshelf.index('---')] = book_to_add - это решает задание в одну строчку, но нужно try except конструкция
