@@ -1,7 +1,10 @@
 def add_to_bookshelf(book_to_add, bookshelf):
-    try:
-        bookshelf[bookshelf.index('---')] = book_to_add
-    except ValueError:
-        return False
-    else:
-        return True
+    i = 0
+    while i < len(bookshelf):
+        if bookshelf[i] == '---':
+            bookshelf[i] = book_to_add
+            return True
+        i += 1
+    return False
+
+# bookshelf[bookshelf.index('---')] = book_to_add
