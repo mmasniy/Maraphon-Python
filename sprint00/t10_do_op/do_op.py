@@ -5,6 +5,7 @@ b = input('Input your operator: ')
 if b not in '+-*/':
     print("usage: the operator must be '*' or '+' or '-' or '/'")
     print('---- Simple calculator ----')
+    quit()
 else:
     c = input('Input your second value: ')
     # try:
