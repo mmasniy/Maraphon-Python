@@ -1,6 +1,6 @@
 import re
 
-regex_str = r"Ukraine,([a-zA-Z-\s])+,([a-zA-Z-\s])+\d{1,6},\s*\d{5}$"
+regex_str = r"(^Ukraine,)([a-zA-Z-\s])+,([a-zA-Z-\s])+\d{1,6},\s*\d{5}$"
 
 
 def check_address(dictionary):
