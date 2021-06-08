@@ -12,3 +12,5 @@ def check_address(dictionary):
         else:
             result.append(f"The address of {key} is invalid.")
     return result
+
+    set.intersection()
