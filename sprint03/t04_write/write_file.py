@@ -14,4 +14,3 @@ def write_file(file_name, message='None'):
                 print(contains)
             else:
                 print('Something went wrong...')
-
