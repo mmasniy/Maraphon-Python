@@ -2,7 +2,7 @@ from re import sub
 
 
 def clear_words(line):
-    return list(map(lambda word: sub(r"[?!.,;:-]", "", word), line.split()))
+    return list(map(lambda word: sub(r'[?!.,;:-]', "", word), line.split()))
 
 #
 # if __name__ == "__main__":
